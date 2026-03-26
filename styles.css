@@ -1,0 +1,96 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TOPO */
+.topo {
+    height: 10px;
+    background-color: #e30613;
+}
+
+/* HEADER */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-bottom: 2px solid #e30613;
+    background-color: white;
+}
+
+.logo {
+    width: 120px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #e30613;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+    background-color: #f5f5f5;
+}
+
+/* IMAGEM */
+.imagem img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+/* TEXTO */
+.titulo {
+    max-width: 400px;
+}
+
+.local {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.titulo h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.titulo p {
+    margin-bottom: 20px;
+}
+
+/* BOTÃO */
+.btn {
+    background-color: #e30613;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #b0050f;
+}
